@@ -1,0 +1,128 @@
+.app {
+  background-color: #23252c;
+  display: flex;
+  width: 550px;
+  height: 868px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Inter, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+}
+
+div {
+  width: 317px;
+  display: inline-block;
+}
+
+img {
+  width: 10%;
+}
+
+.info-div {
+  background-color: #1a1b21;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.about-div {
+  background-color: #1a1b21;
+  padding: 0px 34px;
+  width: 79%;
+}
+
+.interests-div {
+  background-color: #1a1b21;
+  padding: 0px 34px;
+  width: 79%;
+}
+
+.footer-div {
+  background-color: #161619;
+}
+
+.footer-list > li {
+  display: inline;
+  list-style: none;
+  padding-left: 60px;
+}
+
+.info-name {
+  color: white;
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 20px;
+  font-weight: 700;
+  padding: 0px;
+}
+
+.info-position {
+  color: #f3bf99;
+  font-weight: 300;
+  font-size: 12.8px;
+  margin: 0px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+button {
+  height: 34px;
+  width: 115px;
+  margin: 0px 15px;
+}
+
+.headshot-img {
+  height: 317px;
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cat-img {
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about-header {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+
+.about-para {
+  font-size: 10.24px;
+  font-weight: 500px;
+  color: #dcdcdc;
+}
+
+.interests-header {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+
+.interests-para {
+  font-size: 10.24px;
+  font-weight: 500px;
+  color: #dcdcdc;
+}
+
+.email-button {
+  background-color: #d1d5db;
+  color: #1e1f26;
+  border-radius: 6px;
+}
+
+.linkedin-button {
+  background-color: #5093e2;
+  color: #ffffff;
+  border-radius: 6px;
+}
